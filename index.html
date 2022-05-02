@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News App</title>
+   <style>
+     #navbar{
+       display: flex;
+       border: 1px solid black;
+     }
+
+     #search_input{
+       width: 50%;
+       height: 50px;
+       border: 1px solid teal;
+       justify-content: space-between;
+       border-radius: 20px;
+       margin-left: 40PX;
+     }
+
+     #in,#ch,#us,#uk,#nz{
+       color: white;
+       height: 15PX;
+       width: 50PX;
+       border: 1PX SOLID BLACK;
+       background-color: TEAL;
+     }
+
+     #side{
+       display: flex;
+     }
+  
+/* #results{
+
+        height: 150px;
+       width: 1000px;
+       border: 1px solid black;
+       margin-left: 50px;
+       margin-top: 20px; 
+       }
+       */
+
+     .imgs{
+
+      height: 50px;
+      width:50px ;
+     }
+
+     .box{
+      height: 150px;
+       width: 1000px;
+       border: 1px solid black;
+       margin-left: 50px;
+       margin-top: 20px;
+     }
+
+   
+
+
+   </style>
+  </head>
+  <body>
+    <!-- Give Navbar with id "navbar"  -->
+
+    <div id="navbar">
+      <!-- <h3>News App</h3>
+     <input type="text" id="search_input" placeholder="SEARCH NEWS"> -->
+    </div>
+    <!-- Navbar will have input with id search_input and a link to home page i.e. index.html -->
+    <!-- Sidebar will have id "sidebar"  -->
+   
+   <div id="side">
+   
+    <div id="sidebar">
+     <P id="in">india</P>
+     <P id="ch">china</P>
+     <P id="us">us</P>
+     <P id="uk">uk</P>
+     <P id="nz">nz</P>
+    </div>
+
+    <div id="results"></div>
+  
+  
+  
+  
+  </div>
+
+    <!-- Give link to top headlines of countries in sidebar with id as their country codes 
+    india :- in
+    china :- ch
+    usa :- us
+    uk : uk
+    Newzeland :- nz -->
+
+    <!-- Append results inside div with id "results"  -->
+    <!-- News divs will have class "news"  -->
+  </body>
+</html>
+
+<script src="/scripts/index.js" type="module"></script>
